@@ -6,8 +6,8 @@ export const SITE_TITLE = "My Blog";
 /** JSON-LD `author` 등에 쓰는 운영자 표시 이름 (필요 시 변경) */
 export const SITE_AUTHOR_NAME = "BlogName";
 
-/** metadataBase·canonical 생성용 (배포 시 실제 도메인으로 변경) */
-export const SITE_URL = "https://myblog.com";
+/** metadataBase·canonical·OG·sitemap·JSON-LD 등 절대 URL 기준 */
+export const SITE_URL = "https://promptarchitect.kr";
 
 /** title 기본값에 붙는 한 줄 설명 */
 export const SITE_TAGLINE = "마크다운으로 쓰는 개인 블로그";
