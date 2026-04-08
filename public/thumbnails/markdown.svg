@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-hidden="true">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  <text x="400" y="230" text-anchor="middle" fill="#2563EB" font-family="system-ui,sans-serif" font-size="40" font-weight="600">Markdown</text>
+  <text x="400" y="280" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="22">Content</text>
+</svg>
