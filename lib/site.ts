@@ -7,7 +7,7 @@ export const SITE_TITLE = "My Blog";
 export const SITE_AUTHOR_NAME = "BlogName";
 
 /** metadataBase·canonical·OG·sitemap·JSON-LD 등 절대 URL 기준 */
-export const SITE_URL = "https://promptarchitect.kr";
+export const SITE_URL = "https://www.promptarchitect.kr";
 
 /** title 기본값에 붙는 한 줄 설명 */
 export const SITE_TAGLINE = "마크다운으로 쓰는 개인 블로그";

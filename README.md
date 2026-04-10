@@ -14,7 +14,7 @@ pnpm dev
 bun dev
 ```
 
-Open [https://promptarchitect.kr](https://promptarchitect.kr) with your browser to see the result.
+Open [https://www.promptarchitect.kr](https://www.promptarchitect.kr) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 

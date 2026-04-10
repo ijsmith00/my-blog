@@ -4,6 +4,18 @@
  */
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {};
+/** apex → www (SITE_URL과 동일 호스트로 통일, 서치 콘솔·canonical과 일치) */
+const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "promptarchitect.kr" }],
+        destination: "https://www.promptarchitect.kr/:path*",
+        permanent: true,
+      },
+    ];
+  },
+};
 
 export default nextConfig;
