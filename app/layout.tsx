@@ -2,6 +2,7 @@
  * 루트 레이아웃: 전역 CSS, SEO 메타, 테마, 헤더/푸터.
  */
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -79,6 +80,7 @@ export default function RootLayout({
           <Header siteTitle={SITE_TITLE} categories={navCategories} />
           {children}
           <Footer siteTitle={SITE_TITLE} />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
